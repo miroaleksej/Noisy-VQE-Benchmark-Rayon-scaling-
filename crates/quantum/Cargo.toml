@@ -1,0 +1,9 @@
+[package]
+name = "quantum"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+num-complex = "0.4"
+rng = { path = "../rng" }
+tn = { path = "../tn" }

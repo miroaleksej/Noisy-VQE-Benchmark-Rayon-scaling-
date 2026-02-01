@@ -1,0 +1,8 @@
+[package]
+name = "tn"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+num-complex = "0.4"
+faer = "0.19"

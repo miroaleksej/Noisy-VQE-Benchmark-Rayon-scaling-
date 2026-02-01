@@ -1,0 +1,15 @@
+[package]
+name = "emulator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# internal crates
+rng = { path = "../../crates/rng" }
+tn = { path = "../../crates/tn" }
+quantum = { path = "../../crates/quantum" }
+simulator = { path = "../../crates/simulator" }
+
+# CLI
+clap = { version = "4.5", features = ["derive"] }
+rayon = "1.11"

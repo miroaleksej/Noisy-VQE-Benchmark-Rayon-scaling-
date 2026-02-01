@@ -1,0 +1,10 @@
+[package]
+name = "simulator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tn = { path = "../tn" }
+quantum = { path = "../quantum" }
+rng = { path = "../rng" }
+rayon = "1.11"

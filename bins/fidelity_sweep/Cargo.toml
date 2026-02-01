@@ -1,0 +1,10 @@
+[package]
+name = "fidelity_sweep"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+rng = { path = "../../crates/rng" }
+tn = { path = "../../crates/tn" }
+quantum = { path = "../../crates/quantum" }
