@@ -1,0 +1,12 @@
+[workspace]
+members = [
+    "crates/rng",
+    "crates/tn",
+    "crates/quantum",
+    "crates/simulator",
+    "bins/emulator",
+    "bins/chi_sweep",
+    "bins/error_sweep",
+    "bins/fidelity_sweep",
+]
+resolver = "2"
